@@ -14,7 +14,7 @@ def backup(fname):
 def main():
     filename=sys.argv[1]
 
-    schedule.every(2).seconds.do(backup,filename)
+    schedule.every(1).hour.do(backup,filename)
     
     print("application is in waiting state :")
     while True:
