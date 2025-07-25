@@ -10,15 +10,9 @@ def Dataframe():
     
     df = pd.DataFrame(data)
     print("Data is : ",df)
-    amit_marks = df[df['Name'] == 'Amit'][['Math', 'Science', 'English']].iloc[0]
-    print(amit_marks)
-    plt.figure(figsize=(6, 4))
-    plt.plot(amit_marks.index, amit_marks.values, marker='o', linestyle='-', color='blue')
-    plt.title("Amit's Marks Across Subjects")
-    plt.xlabel('Subjects')
-    plt.ylabel('Marks')
-    plt.grid(True)
-    plt.show()
+
+    dropped_df=df.drop(["English"],axis=1)
+    print("after droping : \n",dropped_df)
 
 def main():
     Dataframe()

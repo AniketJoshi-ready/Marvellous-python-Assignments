@@ -11,11 +11,11 @@ def Dataframe():
 
 
     df['Total'] = df[['Math', 'Science', 'English']].sum(axis=1)
-    print("New Data is : ",df)
+    print("New Data is : \n",df)
 
 
     Filtered_df = df[df['Science'] > 85]
-    print("Students who scored more than 85 in Science :",Filtered_df)
+    print("Students who scored more than 85 in Science :\n",Filtered_df)
     
 
 def main():

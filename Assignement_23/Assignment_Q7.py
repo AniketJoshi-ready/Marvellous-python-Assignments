@@ -23,7 +23,7 @@ def Dataframe():
     print("Sorted Data : ",sorted_df)
 
     plt.figure(figsize=(6,4))
-    sns.barplot(data=df,x= 'Name', y='Total_Marks',palette='pastel')
+    sns.barplot(data=df,x= 'Name', y='Total_Marks',hue="Name",palette='pastel')
     plt.title('Student Names vs Total Marks')
     plt.xlabel('Students')
     plt.ylabel('Total_Marks')
