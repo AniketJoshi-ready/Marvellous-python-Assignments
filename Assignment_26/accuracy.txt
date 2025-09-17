@@ -1,0 +1,8 @@
+
+  Accuracy of model when  k that n_neighbors is 1  : 83.33%
+ Accuracy of model when  k that n_neighbors is 2  : 66.67%
+ Accuracy of model when  k that n_neighbors is 3  : 83.33%
+ Accuracy of model when  k that n_neighbors is 4  : 83.33%
+ Accuracy of model when  k that n_neighbors is 5  : 100.00%
+ Accuracy of model when  k that n_neighbors is 6  : 83.33%
+ Accuracy of model when  k that n_neighbors is 7  : 83.33%
